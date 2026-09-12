@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets — never commit API keys
+.env
+.env.*
+
+# App data (uploaded PDFs & vector store)
+data/
+vector_store/
+backend/data/
+backend/vector_store/
+
+# Node / frontend
+node_modules/
+frontend/dist/
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+assets/
